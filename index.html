@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government ITI Karad | Industrial Training Institute</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-color: #003366;
+            --secondary-color: #ffc107;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .navbar { background-color: var(--primary-color); }
+        .navbar-brand { font-weight: bold; color: white !important; }
+        .nav-link { color: white !important; }
+        .nav-link:hover { color: var(--secondary-color) !important; }
+        
+        .hero-section {
+            background: linear-gradient(rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.8)), url('https://source.unsplash.com/1600x900/?college,building');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 150px 0;
+            text-align: center;
+        }
+        
+        .section-padding { padding: 60px 0; }
+        .section-title { text-align: center; margin-bottom: 40px; color: var(--primary-color); font-weight: bold; }
+        
+        /* Trade Card Styles */
+        .trade-card {
+            border: none;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: 0.3s;
+            height: 100%;
+        }
+        .trade-card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(0,0,0,0.2); }
+        
+        .trade-header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .trade-header i { font-size: 30px; margin-bottom: 10px; }
+        .trade-header h4 { margin: 0; font-weight: bold; }
+        
+        .trade-body { padding: 20px; }
+        .trade-info { margin-bottom: 10px; }
+        .trade-info strong { color: var(--primary-color); }
+        .badge-eligibility { background-color: #28a745; color: white; padding: 5px 10px; border-radius: 20px; font-size: 12px; }
+        
+        footer { background-color: var(--primary-color); color: white; padding: 30px 0; text-align: center; }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-graduation-cap me-2"></i>Govt. ITI Karad</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#trades">Trades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Government ITI Karad</h1>
+            <p class="lead">Skill India Mission | Quality Technical Education</p>
+            <a href="#contact" class="btn btn-warning btn-lg mt-3">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">About Institute</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="C:\Users\colle\Downloads\WhatsApp Image 2026-02-25 at 6.46.05 PM.jpeg" class="img-fluid rounded shadow" alt="ITI Building">
+                </div>
+                <div class="col-md-6 mt-3 mt-md-0">
+                    <h3>Welcome to Government ITI Karad</h3>
+                    <p class="text-muted">Government Industrial Training Institute (ITI) Karad is a premier institution dedicated to providing quality technical education and skills training to the youth.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check text-success me-2"></i> Government Certified Courses</li>
+                        <li><i class="fas fa-check text-success me-2"></i> Modern Workshops & Labs</li>
+                        <li><i class="fas fa-check text-success me-2"></i> Expert Trainers</li>
+                        <li><i class="fas fa-check text-success me-2"></i> Placement Assistance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trades Section with Details -->
+    <section id="trades" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Our Trades (Courses)</h2>
+            <p class="text-center text-muted mb-4">List of NCVT/SCVT Certified Trades offered at ITI Karad</p>
+            
+            <div class="row g-4">
+                
+                <!-- Trade 1: Electrician -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="trade-card">
+                        <div class="trade-header">
+                            <i class="fas fa-bolt"></i>
+                            <h4>Electrician</h4>
+                        </div>
+                        <div class="trade-body">
+                            <div class="trade-info">
+                                <span class="badge-eligibility">Duration: 2 Years</span>
+                            </div>
+                            <div class="trade-info">
+                                <strong><i class="fas fa-user-graduate"></i> Eligibility:</strong> 10th Pass
+                            </div>
+                            <div class="trade-info">
+                                <strong><i class="fas fa-users"></i> Seats:</strong> 20 (General) | 10 (SC/ST)
+                            </div>
+                            <hr>
+                            <p class="text-muted small">Training in house wiring, industrial wiring, electrical machines, wiring for commercial buildings, and maintenance of electrical equipment.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trade 2: Fitter -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="trade-card">
+                        <div class="trade-header">
+                            <i class="fas fa-tools"></i>
+                            <h4>Fitter</h4>
+                        </div>
+                        <div class="trade-body">
+                            <div class="trade-info">
+                                <span class="badge-eligibility">Duration: 2 Years</span>
+                            </div>
+                            <div class="trade-info">
+                                <strong><i class="fas fa-user-graduate"></i> Eligibility:</strong> 10th Pass
+                            </div>
+                            <div class="trade-info">
+                                <strong><i class="fas fa-users"></i> Seats:</strong> 20 (General) | 10 (SC/ST)
+                            </div>
+                            <hr>
+                            <p class="text-muted small">Assembly, fitting, and manufacturing of mechanical parts. Includes reading engineering drawings, drilling, tapping, and precision measurement.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trade 3: Mechanic Diesel -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="trade-card">
+                        <div class="trade-header">
+                            <i class="fas fa-truck-pickup"></i>
+                            <h4>Mechanic Diesel</h4>
+                        </div>
+                        <div class="trade-body">
+                            <div class="trade-info">
+                                <span class="badge-eligibility">Duration: 1 Year</span>
+                            </div>
+                            <div class="trade-info">
+                                <strong><i class="fas fa-user-graduate"></i> Eligibility:</strong> 10th Pass
+                            </div>
+                            <div class="trade-info">
+                                <strong><i class="fas fa-users"></i> Seats:</strong> 24 (General) | 12 (SC/ST)
+                            </div>
+                            <hr>
+                            <p class="text-muted small">Repair and maintenance of Diesel engines used in vehicles, generators, and agricultural machinery.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trade 4: Welder -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="trade-card">
+                        <div class="trade-header">
+                            <i class="fas fa-fire-burner"></i>
+                            <h4>Welder (G & W)</h4>
+                        </div>
+                        <div class="trade-body">
+                            <div class="trade-info">
+                                <span class="badge-eligibility">Duration: 1 Year</span>
+                            </div>
+                            <div class="trade-info">
+                                <strong><i class="fas fa-user-graduate"></i> Eligibility:</strong> 8th Pass
+                            </div>
+                            <div class="trade-info">
+                                <strong><i class="fas fa-users"></i> Seats:</strong> 20 (General) | 10 (SC/ST)
+                            </div>
+                            <hr>
+                            <p class="text-muted small">Training in Gas Welding, Arc Welding, MIG Welding, TIG Welding for fabrication of metal structures.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trade 5: Turner -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="trade-card">
+                        <div class="trade-header">
+                            <i class="fas fa-cogs"></i>
+                            <h4>Turner</h4>
+                        </div>
+                        <div class="trade-body">
+                            <div class="trade-info">
+                                <span class="badge-eligibility">Duration: 2 Years</span>
+                            </div>
+                            <div class="trade-info">
+                                <strong><i class="fas fa-user-graduate"></i> Eligibility:</strong> 10th Pass
+                            </div>
+                            <div class="trade-info">
+                                <strong><i class="fas fa-users"></i> Seats:</strong> 20 (General) | 10 (SC/ST)
+                            </div>
+                            <hr>
+                            <p class="text-muted small">Operation of Lathe machines to shape metal and wood. Includes threading, grooving, and precision turning operations.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trade 6: Machinist -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="trade-card">
+                        <div class="trade-header">
+                            <i class="fas fa-industry"></i>
+                            <h4>Machinist</h4>
+                        </div>
+                        <div class="trade-body">
+                            <div class="trade-info">
+                                <span class="badge-eligibility">Duration: 2 Years</span>
+                            </div>
+                            <div class="trade-info">
+                                <strong><i class="fas fa-user-graduate"></i> Eligibility:</strong> 10th Pass
+                            </div>
+                            <div class="trade-info">
+                                <strong><i class="fas fa-users"></i> Seats:</strong> 20 (General) | 10 (SC/ST)
+                            </div>
+                            <hr>
+                            <p class="text-muted small">Advanced machining operations using Milling, Grinding, and CNC machines to produce precision components.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trade 7: COPA -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="trade-card">
+                        <div class="trade-header">
+                            <i class="fas fa-laptop-code"></i>
+                            <h4>COPA</h4>
+                        </div>
+                        <div class="trade-body">
+                            <div class="trade-info">
+                                <span class="badge-eligibility">Duration: 1 Year</span>
+                            </div>
+                            <div class="trade-info">
+                                <strong><i class="fas fa-user-graduate"></i> Eligibility:</strong> 10th Pass
+                            </div>
+                            <div class="trade-info">
+                                <strong><i class="fas fa-users"></i> Seats:</strong> 24 (General) | 12 (SC/ST)
+                            </div>
+                            <hr>
+                            <p class="text-muted small">Computer Operator & Programming Assistant. MS Office, Tally, Internet, and Basic Programming.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trade 8: Sewing Technology -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="trade-card">
+                        <div class="trade-header">
+                            <i class="fas fa-tshirt"></i>
+                            <h4>Sewing Technology</h4>
+                        </div>
+                        <div class="trade-body">
+                            <div class="trade-info">
+                                <span class="badge-eligibility">Duration: 1 Year</span>
+                            </div>
+                            <div class="trade-info">
+                                <strong><i class="fas fa-user-graduate"></i> Eligibility:</strong> 8th Pass
+                            </div>
+                            <div class="trade-info">
+                                <strong><i class="fas fa-users"></i> Seats:</strong> 20 (General) | 10 (SC/ST)
+                            </div>
+                            <hr>
+                            <p class="text-muted small">Garment making, cutting, tailoring, embroidery, and dress designing. (Mostly for Women candidates).</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="card p-4">
+                        <div class="text-center mb-4">
+                            <h4>Get in Touch</h4>
+                        </div>
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label">Name</label>
+                                <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" placeholder="name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Message</label>
+                                <textarea class="form-control" rows="3" placeholder="How can we help?"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5">
+                <h5>Location</h5>
+                <p><i class="fas fa-map-marker-alt me-2"></i> Saidapur Karad, Satara District, Maharashtra.</p>
+                <p><i class="fas fa-phone me-2"></i> +91 9876543210</p>
+                <p><i class="fas fa-envelope me-2"></i> itikarad@example.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Government ITI Karad. All Rights Reserved.</p>
+            <small>Designed for Skill India Mission</small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
